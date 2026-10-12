@@ -1,14 +1,27 @@
-# nano-banana-reverse-api-ja — AI API ゲートウェイ (日本語)
+# Nano Banana API (`gemini-2.5-flash-image-preview`)
 
-> **One OpenAI-compatible key, 300+ models** · image2.5 **$0.0085/image** · Seedance 2.0 Mini **$0.01056/sec** · LLM from **$0.0228 / M tokens** · $1 minimum top-up.
+<!-- conv-kit:v1 -->
 
-**[料金を見る](https://go.apimart.ai/k-1d99a9)** · **[APIキーを取得](https://go.apimart.ai/k-8c64a4)**
+<p align="center">
+  <img src="assets/badges/price.svg" alt="observed unit price"> <img src="assets/badges/billing.svg" alt="billing model"> <img src="assets/badges/compat.svg" alt="OpenAI-compatible endpoint">
+</p>
 
-nano-banana-reverse-api-ja は 1 つの `base_url` と 1 つのキーで 300+ モデルに接続します。USD 決済・従量課金・最低 $1 チャージ。
+<p align="center">
+  <img src="assets/01-product-hero-perfume.jpg" width="820" alt="Nano Banana (gemini-2.5-flash-image-preview) output generated through APIMart">
+</p>
 
-### リバース / reverse-engineered routes
+> **from $0.0125 per image** — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
 
-nano-banana-reverse-api-ja は **リバース** ルートと公式ルートを併記します。`-ext` のモデル ID がリバース由来、それ以外は公式ルートで割引単価。1 つのキーで両方利用できます。
+**[Get an API key](https://go.apimart.ai/k-8c64a4)** · **[Live pricing](https://go.apimart.ai/k-1cec0a)** · **[Model page](https://go.apimart.ai/k-f59c0a)** · [⚡ 60-second quickstart](#quickstart)
+
+**Why teams call Nano Banana (`gemini-2.5-flash-image-preview`) through APIMart**
+
+- **One key, entire catalog.** The same `https://api.apimart.ai/v1` base URL and `Authorization` header reach Nano Banana (`gemini-2.5-flash-image-preview`) and 300+ other image, video and language models — switch the `model` field, not your client.
+- **$1 minimum, pay as you go.** No subscription and no prepaid plan to size up front: top up from $1 and spend it on calls. There is no free quota to burn through first, so the price in this table is the price you pay.
+- **The charge comes back in the response.** Every completed task reports the amount billed (`cost` / `credits_cost`), so a spend number is read per call instead of guessed at month end.
+- **Async by design.** Submit, take the `task_id`, poll `GET /v1/tasks/{id}` — batching and retries are ordinary queue work, not a bespoke integration.
+
+<!-- /conv-kit:v1 -->
 
 ## Published unit prices (snapshot 2026-09-28)
 
